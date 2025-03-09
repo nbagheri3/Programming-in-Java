@@ -37,7 +37,7 @@ public class Mortgage_Calculator {
         double value;
         while(true) {
             System.out.print(prompt);
-            value = scanner.nextFloat();
+            value = scanner.nextDouble();
             if (value >= min && value <= max)
                 break;
             System.out.println("Enter a value between " + min + " and " +  max);
